@@ -1,3 +1,4 @@
+//Test serial sketch
 
 char animation = '0';
 boolean animationActive = false;

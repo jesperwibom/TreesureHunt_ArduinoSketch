@@ -106,27 +106,28 @@ void sun4(){
   
 }
 
-void sunANI (){
+void sunANI ()
+{
  
   
-   for (int x=0;x<10;x++) {  //duration of each frame
-    sun1();
-    delay(1); //all the lights will be on at same time in each frame
-    }
+   for (int x=0;x<20;x++) {  //duration of each frame
+   sun1();
+   delay(1); //all the lights will be on at same time in each frame
+  }
   
-   for (int x=0;x<10;x++) {
-    sun2();
-    delay(1);
+  for (int x=0;x<20;x++) {
+   sun2();
+   delay(1);
     } 
   
-   for (int x=0;x<10;x++) {
+   for (int x=0;x<5;x++) {
     sun3();
-    delay(1);
+  delay(1);
     } 
   
-   for (int x=0;x<10;x++) {
-    sun4();
-    delay(1);
-    } 
+   for (int x=0;x<8;x++) {
+   sun4();
+   delay(1);
+   } 
   
 }

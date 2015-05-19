@@ -7,7 +7,7 @@ int row[] = {10,11,12,13,A5,A4,A3,A0};   // These are the  Cathodes - Send LOW t
 int col[] = {2,3,4,5,6,7,8,9};          // These are the Anodes - Send HIGH to turn on LED
 
 void setup() {
- setPins();
+  setPins();
   Serial.begin(9600);
 
 }
@@ -47,9 +47,9 @@ void animation1(){
 
 //play the animation twice
 
-rainANI();
-delay(100) ;
-rainANI();
+ rainANI();
+ delay(100) ;
+ rainANI();
 }
 
 void animation2(){

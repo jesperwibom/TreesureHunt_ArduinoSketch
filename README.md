@@ -1,2 +1,2 @@
 # TreesureHunt_ArduinoSketch
-Simple sketch for reading serial data
+ Sketch for reading serial data, and controlling the LED Matrix with animations

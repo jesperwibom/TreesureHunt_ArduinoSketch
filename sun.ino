@@ -122,7 +122,7 @@ void sunANI ()
   
    for (int x=0;x<5;x++) {
     sun3();
-  delay(1);
+    delay(1);
     } 
   
    for (int x=0;x<8;x++) {

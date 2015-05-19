@@ -94,30 +94,30 @@ void windANI (){
  
   
    for (int x=0;x<20;x++) {
-  wind1();
-  delay(1);
+   wind1();
+   delay(1);
   }
   
   for (int x=0;x<20;x++) {
- wind2();
-  delay(1);
+  wind2();
+   delay(1);
     } 
   
-   for (int x=0;x<20;x++) {
- wind3();
-  delay(1);
+  for (int x=0;x<20;x++) {
+   wind3();
+   delay(1);
     } 
   
-   for (int x=0;x<20;x++) {
-  wind4();
-  delay(1);
+  for (int x=0;x<20;x++) {
+   wind4();
+   delay(1);
     } 
     
     
     
   for (int x=0;x<20;x++) {
-  wind5();
-  delay(1);
+   wind5();
+   delay(1);
     }    
     
     

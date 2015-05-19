@@ -2,11 +2,12 @@
 
 char animation = '0';
 boolean animationActive = false;
-
-int ledPin = 13;
+int delayPin = 1;                         // delay before it turns the LED off
+int row[] = {10,11,12,13,A5,A4,A3,A0};   // These are the  Cathodes - Send LOW to turn on LED
+int col[] = {2,3,4,5,6,7,8,9};          // These are the Anodes - Send HIGH to turn on LED
 
 void setup() {
-  pinMode(ledPin,OUTPUT);
+ setPins();
   Serial.begin(9600);
 
 }
@@ -43,22 +44,18 @@ void lightControl(){
 }
 
 void animation1(){
-  blinkLed(1);
+rainy();
+  
+  
+  
 }
 
 void animation2(){
-  blinkLed(2);
+  windy();
 }
 
 void animation3(){
-  blinkLed(3);
+  sunny();
 }
 
-void blinkLed(int nbr){
-  for(int i = 0; i < nbr; i++){
-    digitalWrite(ledPin, HIGH);
-    delay(1000);
-    digitalWrite(ledPin, LOW);
-    delay(1000);
-  }
-}
+

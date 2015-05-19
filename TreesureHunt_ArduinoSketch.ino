@@ -44,17 +44,26 @@ void lightControl(){
 }
 
 void animation1(){
+
+//play the animation twice
+
 rainANI();
-  
-  
-  
+delay(100) ;
+rainANI();
 }
 
 void animation2(){
+ 
+ //play the animation twice
+  windANI();
+  delay(100);
   windANI();
 }
 
 void animation3(){
+ //play the animation twice
+  sunANI();
+  delay(100);
   sunANI();
 }
 

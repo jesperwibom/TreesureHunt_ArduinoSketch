@@ -44,18 +44,18 @@ void lightControl(){
 }
 
 void animation1(){
-rainy();
+rainANI();
   
   
   
 }
 
 void animation2(){
-  windy();
+  windANI();
 }
 
 void animation3(){
-  sunny();
+  sunANI();
 }
 
 

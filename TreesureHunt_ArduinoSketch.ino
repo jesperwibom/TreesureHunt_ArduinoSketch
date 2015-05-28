@@ -54,6 +54,10 @@ delay(10);
 rainANI();
 delay(10);
 rainANI();
+delay(10);
+rainANI();
+delay(10);
+rainANI();
 }
 
 void animation2(){
@@ -67,12 +71,18 @@ delay(10);
  windANI();
 delay(10);
  windANI();
+ delay(10);
+ windANI();
+ delay(10);
+ windANI();
 
 }
 
 void animation3(){
   //sun
  //play the animation several times
+  sunANI();
+  delay(10);
   sunANI();
   delay(10);
   sunANI();

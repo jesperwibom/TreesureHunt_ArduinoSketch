@@ -1,4 +1,4 @@
-int R; //variable for row - it goes from 0 to 7
+int R;
 void wind1() {
 
   
@@ -19,8 +19,8 @@ void wind2(){
 }
 
 void wind3(){
- for (R=0;R<8;R++)
- {
+    for (R=0;R<8;R++)
+  {
 
  onLED(R,2);
 
@@ -32,9 +32,10 @@ void wind3(){
 
 
 void wind4(){
- for (R=0;R<8;R++)
+  
+    for (R=0;R<8;R++)
   {
-   onLED(R,3);
+ onLED(R,3);
 
   
    //second line
@@ -43,6 +44,8 @@ onLED(R,1);
   }
 
  }
+
+
  void wind5(){
   for (R=0;R<8;R++)
   {
@@ -65,9 +68,14 @@ void wind6(){
   {
  onLED(R,5);
 
+
+
 //second line
+
 onLED(R,3);
 
+ 
+ 
  //third line
  
  onLED(R,1);
@@ -110,50 +118,56 @@ onLED(R,7);
   }
  }
 
+
+
 void windANI (){
  
   
-   for (int x=0;x<20;x++) {
+   for (int x=0;x<10;x++) {
   wind1();
   delay(1);
   }
  
-  for (int x=0;x<20;x++) {
+  for (int x=0;x<10;x++) {
  wind2();
   delay(1);
     } 
   
-   for (int x=0;x<20;x++) {
+   for (int x=0;x<10;x++) {
  wind3();
   delay(1);
     } 
   
-   for (int x=0;x<20;x++) {
+   for (int x=0;x<10;x++) {
   wind4();
   delay(1);
     } 
     
     
     
-  for (int x=0;x<20;x++) {
+  for (int x=0;x<10;x++) {
   wind5();
   delay(1);
     }    
     
   
-   for (int x=0;x<20;x++) {
+   for (int x=0;x<10;x++) {
   wind6();
   delay(1);
     }    
   
-   for (int x=0;x<20;x++) {
+   for (int x=0;x<10;x++) {
   wind7();
   delay(1);
     }    
     
-     for (int x=0;x<20;x++) {
+     for (int x=0;x<10;x++) {
   wind8();
   delay(1);
     }    
   
+
+    
+  
 }
+

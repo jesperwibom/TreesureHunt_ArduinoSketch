@@ -1,5 +1,3 @@
-//Test serial sketch
-
 char animation = '0';
 boolean animationActive = false;
 int delayPin = 1;                         // delay before it turns the LED off
@@ -46,51 +44,35 @@ void lightControl(){
 void animation1(){
 //rain
 //play the animation several times
+ for (int repeat=0; repeat<7; repeat ++){
 
 rainANI();
-delay(10);
-rainANI();
-delay(10);
-rainANI();
-delay(10);
-rainANI();
-delay(10);
-rainANI();
-delay(10);
-rainANI();
+delay(2);
+ }
+
 }
 
 void animation2(){
  
+
   //wind
  //play the animation several times
+ 
+ for (int repeat=0; repeat<7; repeat ++){
  windANI();
-delay(10);
-windANI();
-delay(10);
- windANI();
-delay(10);
- windANI();
- delay(10);
- windANI();
- delay(10);
- windANI();
+delay(2);
+ }
 
 }
 
 void animation3(){
   //sun
  //play the animation several times
-  sunANI();
-  delay(10);
-  sunANI();
-  delay(10);
-  sunANI();
-  delay(10);
-  sunANI();
-  delay(10);
-  sunANI();
-  delay(10);
-  sunANI();
+  for (int repeat=0; repeat<7; repeat ++){
 
+  sunANI();
+  delay(2);
+
+}
+  
 }
